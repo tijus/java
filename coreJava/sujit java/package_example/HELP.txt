@@ -1,0 +1,5 @@
+command to be typed in command prompt for compiling and running the package
+
+for compiling--> javac -d . Filename.java
+
+for running-->java -d packagename.Filename
