@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<class name="Emptemp" table="Emptemp">
+	  <id name="empno" type="int" column="empno">
+	   <generator class="assigned"/>
+	  </id>
+
+	  <property name="ename">
+		 <column name="ename"/>
+	  </property>
+	  <property name="sal">
+		<column name="sal"/>
+	  </property> 
+	  <property name="job">
+	  		<column name="job"/>
+	  </property>
+	  <property name="deptno">
+	  		<column name="deptno"/>
+	  </property>
+	  <property name="age">
+	  		<column name="age"/>
+	  </property>
+   </class>
+
+</hibernate-mapping>

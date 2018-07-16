@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/xml-apis.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/dnsns.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/dom4j-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/jboss-cache-1.4.1.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/jbosscache-core-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/jta.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/localedata.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/odmg-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/oscache-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/slf4j-jdk14-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/swarmcache-1.0RC2.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/xalan-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Hibernate API/xerces-2.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/oracle/Orahome10/jdbc/lib/ojdbc14.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

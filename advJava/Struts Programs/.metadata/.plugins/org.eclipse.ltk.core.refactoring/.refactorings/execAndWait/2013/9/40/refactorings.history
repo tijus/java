@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;execAndWait&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     xwork-2.0.1.jar&#x0D;&#x0A;     struts2-core-2.0.6.jar&#x0D;&#x0A;     commons-logging-1.1.jar&#x0D;&#x0A;     freemarker-2.3.8.jar&#x0D;&#x0A;     ognl-2.6.11.jar" description="Copy files" element1="WebContent/WEB-INF/lib/xwork-2.0.1.jar" element2="WebContent/WEB-INF/lib/struts2-core-2.0.6.jar" element3="WebContent/WEB-INF/lib/commons-logging-1.1.jar" element4="WebContent/WEB-INF/lib/freemarker-2.3.8.jar" element5="WebContent/WEB-INF/lib/ognl-2.6.11.jar" files="5" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1380514321250" target="/exec/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

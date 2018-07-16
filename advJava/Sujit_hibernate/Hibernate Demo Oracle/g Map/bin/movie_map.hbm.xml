@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+  <class name="com.mov.Movie" table="movie_details">
+  
+	  <id name="id" type="int">
+	   <generator class="assigned"/>
+	  </id>
+	  
+	  <property name="name" type="string"/>
+	  
+	  <map name="details" cascade="all">
+		<key column="code"/>
+		<index column="name" type="string"/>
+		<element column="value" type="string"/>
+	  </map>	  
+  </class>
+</hibernate-mapping>

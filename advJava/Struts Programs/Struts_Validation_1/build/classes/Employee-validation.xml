@@ -1,0 +1,77 @@
+<!DOCTYPE validators PUBLIC 
+"-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+   <field name="empno">
+      <field-validator type="requiredstring">
+         <message>
+            The empno is required.
+         </message>
+      </field-validator>
+       <field-validator type="regex">
+         <param name="expression">
+         	[A-Z,a-z,0-9]{5}
+         </param>
+         <message>
+            The empno is required in format Seed101.
+         </message>
+      </field-validator>
+   </field>
+   
+   <field name="name">
+      <field-validator type="requiredstring">
+         <message>
+            The name is required.
+         </message>
+      </field-validator>
+   </field>
+
+   <field name="age">
+     <field-validator type="int">
+         <param name="min">29</param>
+         <param name="max">64</param>
+         <message>
+            Age must be in between 29 and 64
+         </message>
+      </field-validator>
+   </field>
+   
+   <field name="email">
+      <field-validator type="requiredstring">
+         <message>
+            Email is empty
+         </message>
+      </field-validator>
+       <field-validator type="email">
+         <message>
+            Enter valid Email
+         </message>
+      </field-validator>
+   </field>
+   
+   <field name="password">
+     <field-validator type="requiredstring">
+     		<message>
+            Password cannot be empty
+         </message>
+     </field-validator>
+     <field-validator type="stringlength">
+         <param name="minLength">4</param>
+         <param name="maxLength">10</param>
+         <message>
+           Enter password 4 to 10 character long
+         </message>
+      </field-validator>
+       </field> 
+       
+     <field name="rpassword">
+     <field-validator type="fieldexpression">
+            <param name="expression">(password == rpassword)</param>
+     		<message>
+            Password and Re-entered password must be same
+         </message>
+     </field-validator>      
+   </field>     
+   
+</validators>

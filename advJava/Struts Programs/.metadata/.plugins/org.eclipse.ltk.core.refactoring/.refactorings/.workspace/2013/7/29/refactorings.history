@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Result_Redirect&apos;" deleteContents="true" description="Delete resource &apos;Result_Redirect&apos;" element1="/Result_Redirect" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1373880069484"/>
+</session>

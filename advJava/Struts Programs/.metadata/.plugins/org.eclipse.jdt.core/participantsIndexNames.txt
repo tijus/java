@@ -1,0 +1,47 @@
+INDEX VERSION 1.126
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2676125834.index
+\execAndWait\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3353997853.index
+\exec\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1227321220.index
+\helloworldaction1\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3444045839.index
+\struts_action\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\890210101.index
+\Struts_Validation_1\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3623241597.index
+\result\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\318931987.index
+\HelloWorldAction\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4174554025.index
+\UIDemo\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2676125834.index
+\execAndWait\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2402334987.index
+\Struts_Action_As_Data_Carrier\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3019742623.index
+\Result_redirect1\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\890210101.index
+\Struts_Validation_1\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\409021058.index
+\HelloWorld1\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\318931987.index
+\HelloWorldAction\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1751038610.index
+\exec\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2600203226.index
+\FirstInterceptor\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1859039062.index
+\result\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3385022539.index
+\helloworld2\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2402334987.index
+\Struts_Action_As_Data_Carrier\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\409021058.index
+\HelloWorld1\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3019742623.index
+\Result_redirect1\src
+D:\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4174554025.index
+\UIDemo\src
+D:\SSB\Struts Programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2600203226.index
+\FirstInterceptor\src

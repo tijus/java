@@ -1,0 +1,52 @@
+import org.hibernate.Transaction;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import com.cust.Address;
+import com.cust.Customer;
+public class CustomerInAction
+{
+	public static void main(String[] args)
+	{
+		Session session = null;
+		SessionFactory factory;
+		try
+		{
+			factory=new Configuration().configure().buildSessionFactory();
+			session=factory.openSession();
+			/*Transaction tr=session.beginTransaction();
+			
+			Customer c1=new Customer();
+			c1.setCid("C001");
+			c1.setCname("Rahul Barve");
+
+			Address a1=new Address();
+			a1.setCity("Pune");
+			a1.setState("Maharashtra");
+
+			c1.setCaddress(a1);
+			session.save(c1);
+			
+			tr.commit();
+			System.out.println("Records Added");*/
+			Customer c1=(Customer)session.load(Customer.class,"A001");
+			System.out.println(c1.getCid());
+			System.out.println(c1.getCname());
+			Address ad=c1.getCaddress();
+			System.out.println(ad.getCity());
+			System.out.println(ad.getState());
+
+			
+
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			session.flush();
+			session.close();
+		}
+	}
+}

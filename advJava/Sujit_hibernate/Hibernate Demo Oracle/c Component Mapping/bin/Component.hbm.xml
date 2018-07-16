@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping package="com.cust">
+
+  <class name="Customer" table="customer_details">
+	<id name="cid" column="cust_id">
+	   <generator class="assigned"/>
+	</id>
+	<property name="cname">
+		 <column name="cust_name"/>
+	</property>
+	<component name="caddress" class="Address">
+		<property name="city"/>
+		<property name="state"/>	
+	</component>
+   </class>
+</hibernate-mapping>

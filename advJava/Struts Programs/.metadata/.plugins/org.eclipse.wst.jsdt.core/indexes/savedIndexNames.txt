@@ -1,0 +1,18 @@
+INDEX VERSION 1.122+D:\Struts Programs\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2413826399.index
+4136741994.index
+3860503709.index
+4105236588.index
+2607344246.index
+708344669.index
+3820165586.index
+1583731214.index
+663572547.index
+3685825549.index
+4217633273.index
+3434245656.index
+2390851562.index
+2716484622.index
+1040425642.index
+1545097198.index
+2203136301.index
